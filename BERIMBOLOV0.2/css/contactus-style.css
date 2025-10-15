@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/dark-road-3840-x-2400-wallpaper-0mz2gk49028n6e6p.jpg') no-repeat center center/cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #ffd700;
+}
+
+.contact-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.form-control, .form-check-label {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid yellow;
+}
+
+.btn-send {
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btn-send:hover {
+  background-color: gold;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  bottom: 0;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer .social-icons a:hover {
+  color: gray;
+}
+
+span{
+  color: red;
+  
+}
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    footer {
+      position: absolute;
+      background-color: #f1f1f1;
+      color: black;
+      text-align: center;
+      padding: 20px 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/dark-road-3840-x-2400-wallpaper-0mz2gk49028n6e6p.jpg') no-repeat center center/cover;
+      color: white;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+    }
+
+    .sec {
+      position: relative;
+      top: 20%;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    }
+  
+  }
+
+  
